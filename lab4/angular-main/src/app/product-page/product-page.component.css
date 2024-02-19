@@ -1,0 +1,17 @@
+.cards{
+    width: 95%;
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin:10px;
+    background: #fbfbfe;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 40px;
+    width: 250px;
+    max-height: 530px;
+}
+.img{
+    width: 250px;
+}
