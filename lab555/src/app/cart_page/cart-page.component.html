@@ -1,0 +1,17 @@
+<div *ngFor="let product of products">
+    <img [src]="product.imgURL" />
+  <h3>
+    <a [title]="product.name + ' details'">
+      {{ product.name }}
+    </a>
+  </h3>
+  <h3>
+    Rating:{{product.rating}}
+  </h3>
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+  <button type="button" (click)="share(product.link)">
+    Share
+  </button>
+</div>
