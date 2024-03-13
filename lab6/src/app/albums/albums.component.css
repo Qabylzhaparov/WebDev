@@ -1,0 +1,19 @@
+.categ-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.categ-container__item{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: orangered;
+    color: #ffffff;
+    text-decoration: none;
+}
+.loader{
+    position: fixed;
+    left: 40%;
+    top: 20%;
+}
